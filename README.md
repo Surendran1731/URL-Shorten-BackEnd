@@ -13,7 +13,7 @@ If user does not know the registered password, who can generates the token throu
 #### Reset password API:-
 ######  https://url-shorten-backend-wpl6.onrender.comapi/auth/reset-password/0YS0mfMYvOI0XZmx8YHv
 When the user generates the token, particular token will be searched into this api
-### shorten URl
+#### shorten URl
 In this endpoint we need to give the url which need tobe shorten. It gives us a short url to redirect to the original site.
 ####  https://url-shorten-backend-wpl6.onrender.com/api/url/shorten
  
