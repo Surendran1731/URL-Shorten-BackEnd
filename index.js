@@ -15,7 +15,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: ['https://url-shrinker.netlify.app','*'],
+    origin: ['https://url-shortend-frontend.netlify.app','*'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     methods: ['GET', 'POST'],
     credentials:true,
@@ -23,7 +23,7 @@ const io = new Server(server, {
   },
 });
 app.use(cors({
-  origin: ['https://url-shrinker.netlify.app','*'],
+  origin: ['https://url-shortend-frontend.netlify.app','*'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   methods:['GET','POST'],
   credentials:true,
